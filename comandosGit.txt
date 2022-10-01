@@ -27,3 +27,6 @@ git branch -d <rama_a_eliminar> -> eliminar rama
 
 
 git push origin <rama> -> subir cambios a repo remoto
+
+git clone https://github.com/vitoco/hello-world-git -> clonar repositorio remoto a local (parados en carpeta en la cual se va a clonar)
+
