@@ -17,3 +17,11 @@ git config user.name -> muestra el nombre de usuario
 git config --global user.email "<email>" -> configura el email para el usuario
 git config user.email -> muestra el email del usuario
 
+TRABAJANDO CON RAMAS
+git branch -> muestra las ramas locales
+git branch -a -> muestra ramas locales y remotas
+git checkout <nombre_rama> -> cambiar de ramas
+git branch <nombre_nueva_rama> -> crea una nueva rama
+git branch -m <nombre_rama_antigua> <nombre_rama_nueva> -> cambia nombre de rama antigua a un nuevo nombre de rama
+git branch -d <rama_a_eliminar> -> eliminar rama
+
