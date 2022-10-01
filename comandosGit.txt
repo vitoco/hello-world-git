@@ -3,3 +3,5 @@ git status -> muestra el estado del directorio de trabajo, los cambios realizado
 git add <archivo> -> agrega archivos al tracking, para que después se les realice commit
 git commit -m "<mensaje>" -> crea una confirmación de cambio, y con -m agrega un mensaje
 git add --all -> agrega todos los archivos
+git log -> ver registro de commits realizados
+git commit --amend -> modifica el último commit realizado en local
