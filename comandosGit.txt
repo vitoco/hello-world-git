@@ -26,4 +26,4 @@ git branch -m <nombre_rama_antigua> <nombre_rama_nueva> -> cambia nombre de rama
 git branch -d <rama_a_eliminar> -> eliminar rama
 
 
-git push <repo_remoto> <rama>
+git push origin <rama> -> subir cambios a repo remoto
