@@ -1,5 +1,9 @@
+mkdir myproject -> crear carpeta para proyecto
+cd myproject -> cambiarse a carpeta para nuevo proyecto 
+
 git init -> Inicializa un repositorio
 git status -> muestra el estado del directorio de trabajo, los cambios realizados y archivos
+git status --short -> muestra los cambios en forma más reducida, ?? - archivos sin seguimiento, A - Archivos agregados, M - Archivos modificados, D - Archivos eliminados
 git add <archivo> -> agrega archivos al tracking, para que después se les realice commit
 git commit -m "<mensaje>" -> crea una confirmación de cambio, y con -m agrega un mensaje
 git add --all -> agrega todos los archivos
@@ -30,3 +34,5 @@ git push origin <rama> -> subir cambios a repo remoto
 
 git clone https://github.com/vitoco/hello-world-git -> clonar repositorio remoto a local (parados en carpeta en la cual se va a clonar)
 
+git fetch -> nos muestra un indice de los cambios realizados en remoto
+git pull origin mi_rama -> se bajan los cambios a nuestra rama local
