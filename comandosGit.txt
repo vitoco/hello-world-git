@@ -1,0 +1,5 @@
+git init -> Inicializa un repositorio
+git status -> muestra el estado del directorio de trabajo, los cambios realizados y archivos
+git add <archivo> -> agrega archivos al tracking, para que después se les realice commit
+git commit -m "<mensaje>" -> crea una confirmación de cambio, y con -m agrega un mensaje
+git add --all -> agrega todos los archivos
