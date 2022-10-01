@@ -5,3 +5,15 @@ git commit -m "<mensaje>" -> crea una confirmación de cambio, y con -m agrega u
 git add --all -> agrega todos los archivos
 git log -> ver registro de commits realizados
 git commit --amend -> modifica el último commit realizado en local
+
+AL CREAR REPOSITORIO EN GITHUB
+git remote add origin https://github.com/vitoco/hello-world-git.git -> apuntará el repositorio remoto en el cual vamos a trabajar
+git branch -M main
+git push -u origin main
+
+git remote -v -> muestra repositorio remoto al cual está apuntando
+git config --global user.name "Mona Lisa" -> configura el nombre de usuario para git
+git config user.name -> muestra el nombre de usuario
+git config --global user.email "<email>" -> configura el email para el usuario
+git config user.email -> muestra el email del usuario
+
