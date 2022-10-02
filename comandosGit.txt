@@ -5,15 +5,22 @@ git init -> Inicializa un repositorio
 git status -> muestra el estado del directorio de trabajo, los cambios realizados y archivos
 git status --short -> muestra los cambios en forma más reducida, ?? - archivos sin seguimiento, A - Archivos agregados, M - Archivos modificados, D - Archivos eliminados
 git add <archivo> -> agrega archivos al tracking, para que después se les realice commit
-git commit -m "<mensaje>" -> crea una confirmación de cambio, y con -m agrega un mensaje
 git add --all -> agrega todos los archivos
+git commit -m "<mensaje>" -> crea una confirmación de cambio, y con -m agrega un mensaje
+git commit -a -m "<Comentario>" -> crea una confirmación de todos los archivos y agrega un comentario
 git log -> ver registro de commits realizados
 git commit --amend -> modifica el último commit realizado en local
 
+git <comando> -help -> Muestra todas las opciones disponibles para el comando en específico, por ejemplo -> git commit -help
+git help --all -> muestra todos los posibles comandos, para salir de ayuda apretar "q"
+git <comando> --help -> abre una página web con ayuda acerca del comando
+
+**************************************************************************************************************************************
 AL CREAR REPOSITORIO EN GITHUB
 git remote add origin https://github.com/vitoco/hello-world-git.git -> apuntará el repositorio remoto en el cual vamos a trabajar
 git branch -M main
 git push -u origin main
+**************************************************************************************************************************************
 
 git remote -v -> muestra repositorio remoto al cual está apuntando
 git config --global user.name "Mona Lisa" -> configura el nombre de usuario para git
@@ -25,14 +32,14 @@ TRABAJANDO CON RAMAS
 git branch -> muestra las ramas locales
 git branch -a -> muestra ramas locales y remotas
 git checkout <nombre_rama> -> cambiar de ramas
+git checkout -b <nueva_rama> -> crea una nueva rama y se mueve a ella
 git branch <nombre_nueva_rama> -> crea una nueva rama
 git branch -m <nombre_rama_antigua> <nombre_rama_nueva> -> cambia nombre de rama antigua a un nuevo nombre de rama
 git branch -d <rama_a_eliminar> -> eliminar rama
-
 
 git push origin <rama> -> subir cambios a repo remoto
 
 git clone https://github.com/vitoco/hello-world-git -> clonar repositorio remoto a local (parados en carpeta en la cual se va a clonar)
 
 git fetch -> nos muestra un indice de los cambios realizados en remoto
-git pull origin mi_rama -> se bajan los cambios a nuestra rama local
+git pull origin <mi_rama> -> se bajan los cambios a nuestra rama local
