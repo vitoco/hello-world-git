@@ -36,6 +36,7 @@ git checkout -b <nueva_rama> -> crea una nueva rama y se mueve a ella
 git branch <nombre_nueva_rama> -> crea una nueva rama
 git branch -m <nombre_rama_antigua> <nombre_rama_nueva> -> cambia nombre de rama antigua a un nuevo nombre de rama
 git branch -d <rama_a_eliminar> -> eliminar rama
+git merge <rama_con_la_cual_fusionar> -> fusiona rama actual con otra rama
 
 git push origin <rama> -> subir cambios a repo remoto
 
